@@ -173,6 +173,9 @@ h3 { margin: 0 0 6px; font-size: 1.2rem; }
 .channel .command { width: 100%; justify-content: space-between; }
 .channel .command code { font-size: 13px; }
 
+.donate { margin-top: 76px; text-align: center; }
+.donate p { max-width: 38rem; margin: 0 auto 22px; color: var(--ink-soft); }
+
 .name-note { margin: 76px auto 0; max-width: 38rem; text-align: center; color: var(--ink-soft); font: italic 1.15rem/1.5 var(--serif); }
 
 /* Footer */
@@ -196,5 +199,5 @@ h3 { margin: 0 0 6px; font-size: 1.2rem; }
   .feature, .feature:nth-of-type(even) { grid-template-columns: 1fr; gap: 24px; margin-bottom: 52px; }
   .feature:nth-of-type(even) > div { order: 0; }
   .tiles, .channels { grid-template-columns: 1fr; }
-  .name-note, .site-footer { margin-top: 52px; }
+  .donate, .name-note, .site-footer { margin-top: 52px; }
 }
