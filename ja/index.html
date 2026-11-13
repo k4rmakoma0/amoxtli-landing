@@ -3,8 +3,8 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Amoxtli: Mac用Markdownビューア</title>
-  <meta name="description" content="Mac向けの読み取り専用ネイティブMarkdownビューア。ファイルやフォルダを開いて、整った表示で読めます。無料のオープンソースアプリです。">
+  <title>Amoxtli: Mac・Windows・Linux用Markdownビューア</title>
+  <meta name="description" content="Mac・Windows・Linux向けの読み取り専用ネイティブMarkdownビューア。ファイルやフォルダを開いて、整った表示で読めます。無料のオープンソースアプリです。">
   <link rel="canonical" href="https://amoxtli.alananaya.dev/ja/">
   <link rel="alternate" hreflang="en" href="https://amoxtli.alananaya.dev/">
   <link rel="alternate" hreflang="es" href="https://amoxtli.alananaya.dev/es/">
@@ -18,8 +18,8 @@
   <link rel="alternate" hreflang="zh-Hans" href="https://amoxtli.alananaya.dev/zh-hans/">
   <link rel="alternate" hreflang="zh-Hant" href="https://amoxtli.alananaya.dev/zh-hant/">
   <link rel="alternate" hreflang="x-default" href="https://amoxtli.alananaya.dev/">
-  <meta property="og:title" content="Amoxtli: Mac用Markdownビューア">
-  <meta property="og:description" content="Mac向けの読み取り専用ネイティブMarkdownビューア。ファイルやフォルダを開いて、整った表示で読めます。無料のオープンソースアプリです。">
+  <meta property="og:title" content="Amoxtli: Mac・Windows・Linux用Markdownビューア">
+  <meta property="og:description" content="Mac・Windows・Linux向けの読み取り専用ネイティブMarkdownビューア。ファイルやフォルダを開いて、整った表示で読めます。無料のオープンソースアプリです。">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://amoxtli.alananaya.dev/ja/">
   <meta property="og:image" content="https://amoxtli.alananaya.dev/assets/img/en-1-document.png">
@@ -58,14 +58,15 @@
 <main id="main">
   <div class="wrap">
     <section class="hero">
-      <p class="eyebrow">無料のオープンソース、Mac向け</p>
+      <p class="eyebrow">無料のオープンソース、Mac・Windows・Linux向け</p>
       <h1>Markdownを、あるべき姿で</h1>
-      <p class="lede">Amoxtliは、Mac向けのネイティブなMarkdownビューアです。ファイルやフォルダ全体を開くだけで、設定なしで整った表示のまま読めます。</p>
+      <p class="lede">Amoxtliは、Mac・Windows・Linux向けのネイティブなMarkdownビューアです。ファイルやフォルダ全体を開くだけで、設定なしで整った表示のまま読めます。</p>
       <div class="actions">
-        <a class="button" href="https://github.com/k4rmakoma0/amoxtli-md-viewer/releases/latest">Mac版をダウンロード</a>
-        <div class="command"><code>brew install --cask k4rmakoma0/tap/amoxtli</code><button class="copy" type="button" data-copy="brew install --cask k4rmakoma0/tap/amoxtli" data-copied="コピーしました" data-failed="選択してコピー">コピー</button></div>
+        <a class="button" href="https://github.com/k4rmakoma0/amoxtli-md-viewer/releases/download/v1.2/Amoxtli-1.2.zip">Mac版をダウンロード</a>
+        <a class="button" href="https://apps.microsoft.com/detail/9N8WZTSKKDV8">Windows版をダウンロード</a>
+        <a class="button" href="https://github.com/k4rmakoma0/amoxtli-linux/releases/download/v1.1.0/amoxtli-1.1.0-x86_64.flatpak">Linux版をダウンロード</a>
       </div>
-      <p class="requires">macOS 27が必要です。</p>
+      <p class="requires">macOS 27 · Windows 10（1809）以降 · Linux x86_64 (Flatpak).</p>
       <picture>
         <source srcset="../assets/img/en-3-dark.png" media="(prefers-color-scheme: dark)">
         <img class="shot" src="../assets/img/en-1-document.png" alt="整形された書類と、サイドパネルの目次を表示しているAmoxtli。" width="1640" height="1014">
@@ -92,15 +93,17 @@
       <li><h3>ライトとダーク</h3><p>システムの外観とアクセントカラーに従います。</p></li>
       <li><h3>読み取り専用</h3><p>Amoxtliがファイルを変更することはないので、安心して開けます。</p></li>
       <li><h3>プライバシー</h3><p>アカウント、広告、トラッキングはありません。書類の画像を読み込むときだけ接続します。</p></li>
-      <li><h3>あなたの言語で</h3><p>11言語に対応し、VoiceOverにも対応しています。</p></li>
+      <li><h3>あなたの言語で</h3><p>複数の言語に対応し、MacではVoiceOverにも対応しています。</p></li>
     </ul>
     <div class="fret" aria-hidden="true"></div>
     <section class="install" id="install">
       <h2>Amoxtliを入手</h2>
-      <p>どの入手方法でも無料で、同じソースコードからビルドしています。</p>
+      <p>Mac・Windows・Linux向けの無料オープンソースアプリ。</p>
       <div class="channels">
-      <div class="channel"><h3>Homebrew</h3><p>ターミナルからインストールとアップデートができます。</p><div class="command"><code>brew install --cask k4rmakoma0/tap/amoxtli</code><button class="copy" type="button" data-copy="brew install --cask k4rmakoma0/tap/amoxtli" data-copied="コピーしました" data-failed="選択してコピー">コピー</button></div></div>
-      <div class="channel"><h3>直接ダウンロード</h3><p>GitHub Releasesの公証済みアプリです。解凍して「アプリケーション」に移動してください。</p><a href="https://github.com/k4rmakoma0/amoxtli-md-viewer/releases/latest">最新バージョン</a></div>
+      <div class="channel"><h3>Microsoft Store · Windows</h3><p>Windows版はMicrosoft Storeからインストールとアップデートができます。</p><a href="https://apps.microsoft.com/detail/9N8WZTSKKDV8">Microsoft Storeで入手</a></div>
+      <div class="channel"><h3>Homebrew · Mac</h3><p>ターミナルからインストールとアップデートができます。</p><div class="command"><code>brew install --cask k4rmakoma0/tap/amoxtli</code><button class="copy" type="button" data-copy="brew install --cask k4rmakoma0/tap/amoxtli" data-copied="コピーしました" data-failed="選択してコピー">コピー</button></div></div>
+      <div class="channel"><h3>直接ダウンロード · Mac</h3><p>GitHub Releasesの公証済みアプリです。解凍して「アプリケーション」に移動してください。</p><a href="https://github.com/k4rmakoma0/amoxtli-md-viewer/releases/download/v1.2/Amoxtli-1.2.zip">ZIPをダウンロード</a><a href="https://github.com/k4rmakoma0/amoxtli-md-viewer/releases/latest">GitHubでバージョンを見る</a></div>
+      <div class="channel"><h3>Flatpak · Linux</h3><p>Flatpakを利用するx86_64 Linux向け。更新するには、ここから新しいバージョンをダウンロードしてください。</p><a href="https://github.com/k4rmakoma0/amoxtli-linux/releases/download/v1.1.0/amoxtli-1.1.0-x86_64.flatpak">Flatpakをダウンロード</a><div class="command"><code>flatpak install --user amoxtli-1.1.0-x86_64.flatpak</code></div><a href="https://github.com/k4rmakoma0/amoxtli-linux/releases/latest">GitHubでバージョンを見る</a></div>
       <div class="channel"><h3>Mac App Store</h3><p>近日公開。</p></div>
       <div class="channel"><h3>Snap Store · Linux</h3><p>近日公開。</p></div>
       </div>
@@ -120,7 +123,9 @@
       <a href="https://buymeacoffee.com/alanxdev" rel="noopener">寄付</a>
       <a href="privacy/">プライバシー</a>
       <a href="https://github.com/k4rmakoma0/amoxtli-md-viewer/issues">サポート</a>
-      <a href="https://github.com/k4rmakoma0/amoxtli-md-viewer">ソースコード</a>
+      <a href="https://github.com/k4rmakoma0/amoxtli-md-viewer">ソースコード (Mac)</a>
+      <a href="https://github.com/k4rmakoma0/amoxtli-windows">ソースコード (Windows)</a>
+      <a href="https://github.com/k4rmakoma0/amoxtli-linux">ソースコード (Linux)</a>
     </nav>
   </div>
 </footer>
