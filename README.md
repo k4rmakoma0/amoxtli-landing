@@ -28,7 +28,7 @@ python3 -m http.server 8000
 
 ## Descargas
 
-Los botones de Mac y Linux descargan directamente los archivos publicados en GitHub; cada tarjeta también enlaza a la página de versiones. Windows abre Microsoft Store.
+Los botones de Mac y Linux descargan directamente los archivos publicados en GitHub; cada tarjeta también enlaza a la página de versiones. Windows abre Microsoft Store y Snap abre [Snap Store](https://snapcraft.io/amoxtli), con instalación mediante `sudo snap install amoxtli` y actualizaciones automáticas.
 
 - Mac: `Amoxtli-1.2.zip` (v1.2).
 - Linux x86_64: `amoxtli-1.1.0-x86_64.flatpak` (v1.1.0). Requiere Flatpak; las actualizaciones se descargan manualmente.
