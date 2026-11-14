@@ -1,6 +1,8 @@
 # Amoxtli: sitio web
 
-Sitio de Amoxtli: Markdown Viewer para [Mac](https://github.com/k4rmakoma0/amoxtli-md-viewer), [Windows](https://github.com/k4rmakoma0/amoxtli-windows) y [Linux](https://github.com/k4rmakoma0/amoxtli-linux), en `amoxtli.alananaya.dev`.
+Sitio de Amoxtli: editor de Markdown para [Mac](https://github.com/k4rmakoma0/amoxtli-md-viewer), [Windows](https://github.com/k4rmakoma0/amoxtli-windows) y [Linux](https://github.com/k4rmakoma0/amoxtli-linux), en `amoxtli.alananaya.dev`.
+
+La landing presenta Amoxtli como editor de Markdown e incluye la creación de archivos, las vistas de edición y el resaltado de 20 lenguajes de la versión Linux.
 
 HTML y CSS estáticos, sin paso de compilación, dependencias ni analíticas. Cualquier hosting estático sirve con la raíz de este repo.
 
